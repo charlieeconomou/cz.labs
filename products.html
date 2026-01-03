@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CZ Labs — Products</title>
+  <meta name="description" content="CZ Labs product lineup: shakers, creatine capsules, and weekly vitamin holders." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- Header / Nav -->
+  <header class="header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="CZ Labs Home">
+        <img class="brand-logo" src="images/cz-logo.png" alt="CZ Labs logo" />
+        <span class="brand-name">CZ Labs</span>
+      </a>
+
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="index.html">Home</a>
+        <a href="products.html" aria-current="page">Products</a>
+        <a href="contact.html">Contact</a>
+        <a class="nav-cta" href="https://instagram.com/cz.labs" target="_blank" rel="noopener noreferrer">@cz.labs</a>
+      </nav>
+
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <div class="mobile-nav" id="mobileNav" aria-hidden="true">
+      <a href="index.html">Home</a>
+      <a href="products.html">Products</a>
+      <a href="contact.html">Contact</a>
+      <a href="https://instagram.com/cz.labs" target="_blank" rel="noopener noreferrer">@cz.labs</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- Page Hero -->
+    <section class="page-hero">
+      <div class="container">
+        <div class="breadcrumb">
+          <a href="index.html">Home</a>
+          <span>›</span>
+          <span>Products</span>
+        </div>
+
+        <h1>Launch Lineup</h1>
+        <p class="subhead">
+          Essentials first. Clean products designed for performance, consistency, and brand presence.
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn primary" href="contact.html">Early access</a>
+          <a class="btn ghost" href="https://instagram.com/cz.labs" target="_blank" rel="noopener noreferrer">
+            Follow @cz.labs
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Products Grid -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Products</h2>
+          <p>Built to scale. This is the foundation.</p>
+        </div>
+
+        <div class="product-grid">
+          <!-- Creatine -->
+          <article class="product-card">
+            <div class="product-media">
+              <img src="images/creatine.png" alt="CZ Labs Creatine Capsules" loading="lazy" />
+            </div>
+            <div class="product-body">
+              <h3>Creatine Monohydrate Capsules</h3>
+              <p class="muted">
+                A performance staple for strength, power output, and recovery — no fillers, no fluff.
+              </p>
+              <div class="product-tags">
+                <span class="tag">Supplement</span>
+                <span class="tag">Core</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Shakers -->
+          <article class="product-card">
+            <div class="product-media">
+              <img src="images/shakers.png" alt="CZ Labs shaker bottles in black and white" loading="lazy" />
+            </div>
+            <div class="product-body">
+              <h3>Shaker Bottles</h3>
+              <p class="muted">
+                Clean branding, everyday use. Built to get the logo seen in and out of the gym.
+              </p>
+              <div class="product-tags">
+                <span class="tag">Accessory</span>
+                <span class="tag">Brand</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Vitamin Holder -->
+          <article class="product-card">
+            <div class="product-media">
+              <img src="images/vitamin-holder.png" alt="Weekly vitamin holder" loading="lazy" />
+            </div>
+            <div class="product-body">
+              <h3>Weekly Vitamin Holder</h3>
+              <p class="muted">
+                Consistency tool. Organize your stack and stay locked in every day.
+              </p>
+              <div class="product-tags">
+                <span class="tag">Lifestyle</span>
+                <span class="tag">Utility</span>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="callout">
+          <div>
+            <h3>More products coming</h3>
+            <p>
+              Additional supplements and accessories will roll out as the brand grows.
+            </p>
+          </div>
+          <a class="btn primary" href="contact.html">Get notified</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Founder -->
+    <section class="section soft">
+      <div class="container">
+        <div class="section-head">
+          <h2>Founder</h2>
+          <p>Built from the ground up with a focus on discipline, performance, and brand quality.</p>
+        </div>
+
+        <div class="founder">
+          <div class="founder-card">
+            <img
+              class="founder-photo"
+              src="images/charles-headshot.jpg"
+              alt="Charles Economou headshot"
+              loading="lazy"
+            />
+            <div class="founder-info">
+              <h3>Charles Economou</h3>
+              <p class="muted">Founder, CZ Labs</p>
+            </div>
+          </div>
+
+          <div class="founder-note">
+            <h3>Why CZ Labs</h3>
+            <ul class="bullets">
+              <li>Essentials over clutter</li>
+              <li>Consistency beats hype</li>
+              <li>Brand + product quality first</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> CZ Labs.</p>
+      <a href="https://instagram.com/cz.labs" target="_blank" rel="noopener noreferrer">@cz.labs</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
